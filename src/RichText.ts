@@ -71,8 +71,6 @@ export default class RichText extends PIXI.Sprite {
 
   private options: RichTextOptions;
 
-  private animationRequest = NaN;
-
   private _text = "";
   public get text(): string {
     return this._text;

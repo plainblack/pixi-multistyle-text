@@ -235,13 +235,6 @@ export const parseTags = (
 
   const tokens = createTokens(segments, tagMatches);
 
-  // console.log({
-  //   matchesRaw,
-  //   segments,
-  //   tags: tagMatches,
-  //   tokens,
-  // });
-
   return tokens;
 };
 
